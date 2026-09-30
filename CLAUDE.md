@@ -19,13 +19,13 @@ chmod +x ./model-route
 
 ## Configuration
 
-**API Key:** Set in `~/.bashrc`:
+**API Key:** Set in `~/.bashrc` or environment:
 
 ```bash
-export TYPESAFE_API_KEY="YOUR-KEY-HERE"
+export TYPESAFE_API_KEY="your-key-here"
 ```
 
-The script automatically detects and uses this key.
+Or use `OPENROUTER_API_KEY` if available. The script automatically detects and uses whichever is set.
 
 ## Model Routing Workflow
 
