@@ -1,0 +1,23 @@
+{
+  "skill_name": "model-route",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Route this task: Refactor a React component to use hooks instead of class syntax. The component currently has clear state management and lifecycle methods that map 1:1 to hooks.",
+      "expected_output": "Should recommend routine_model with low-to-moderate difficulty (0-1). Clear, reversible transformation with well-understood patterns.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Route this task: Design a new authentication system that integrates with multiple identity providers (OAuth, SAML, custom), handles token refresh, supports device-based flows, and must comply with SOC 2 requirements. Current auth is tightly coupled to the monolith.",
+      "expected_output": "Should recommend reasoning_model with high difficulty (2). Ambiguous, cross-cutting architectural work with high impact and complex tradeoffs.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Route this task: Fix a bug where the user profile endpoint returns a 500 error when the bio field contains emoji. The error trace points to a JSON serialization issue.",
+      "expected_output": "Should recommend routine_model with low difficulty (0). Localized bug fix with clear requirements and low impact if handled wrong.",
+      "files": []
+    }
+  ]
+}

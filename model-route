@@ -1,0 +1,5 @@
+#!/bin/bash
+# Wrapper for model-route.py
+cd "$(dirname "$0")"
+source ~/.bashrc
+python3 model-route.py "$@"
